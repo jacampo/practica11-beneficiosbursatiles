@@ -3,6 +3,7 @@ name: top_gainers_scrape
 
 # Controls when the action will run.
 on:
+  push:
   schedule:
     - cron:  '0 13 * * *'
   workflow_dispatch:
